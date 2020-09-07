@@ -1,0 +1,48 @@
+.tomato {
+  background: tomato;
+}
+
+.color {
+  background: rebeccapurple;
+}
+
+.icon {
+  font-size: 130px;
+}
+footer {
+  background: gray;
+  font-weight: 400;
+}
+
+header {
+  background-image: url("../images/fondo.jpg");
+  height: 40vh;
+  background-size: cover;
+}
+
+.icon:hover {
+  transform: scale(1.5) rotate(10deg);
+  transition-duration: 400ms;
+}
+.frase {
+  background: green;
+}
+
+.area {
+  resize: none;
+}
+
+.fondo {
+  background-image: url("../images/fondo.jpg");
+  background-size: cover;
+}
+
+.imagen:hover {
+  transform: scale(1.1) rotate(360deg);
+  transition-duration: 5s;
+  transition-timing-function: ease-in;
+}
+
+.imagen {
+  filter: grayscale(100%);
+}
